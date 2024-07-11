@@ -6,9 +6,4 @@ spec:
     image: maven:3.9.8-eclipse-temurin-17-alpine
     command:
     - sleep 
-  - name: docker
-    image: greyarch/podman
-    command: 
-    - sleep 
-
     
