@@ -5,10 +5,10 @@ spec:
   - name: maven
     image: maven:3.9.8-eclipse-temurin-17-alpine
     command:
-    - cat
+    - sleep 
   - name: docker
     image: greyarch/podman
     command: 
-    - cat
+    - sleep 
 
     
